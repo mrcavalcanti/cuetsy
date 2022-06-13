@@ -1,4 +1,4 @@
-module github.com/mosaicoo/cuetsy
+module github.com/mrcavalcanti/cuetsy
 
 go 1.16
 
