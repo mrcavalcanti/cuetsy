@@ -1,19 +1,19 @@
 <p align="center">
   <img
     width="300"
-    src="https://raw.githubusercontent.com/grafana/cuetsy/main/docs/logo/cuetsy.svg"
+    src="https://raw.githubusercontent.com/mosaicoo/cuetsy/main/docs/logo/cuetsy.svg"
     alt="Cuetsy Logo"
   />
 </p>
 
 <p align="center">
-  <a href="https://drone.grafana.net/grafana/cuetsy">
-    <img src="https://img.shields.io/drone/build/grafana/cuetsy?style=flat-square">
+  <a href="https://drone.mosaicoo.net/mosaicoo/cuetsy">
+    <img src="https://img.shields.io/drone/build/mosaicoo/cuetsy?style=flat-square">
   </a>
-  <a href="https://github.com/grafana/cuetsy/releases">
-    <img src="https://img.shields.io/github/release/grafana/cuetsy?style=flat-square" />
+  <a href="https://github.com/mosaicoo/cuetsy/releases">
+    <img src="https://img.shields.io/github/release/mosaicoo/cuetsy?style=flat-square" />
   </a>
-  <img src="https://img.shields.io/github/contributors/grafana/cuetsy?style=flat-square" />
+  <img src="https://img.shields.io/github/contributors/mosaicoo/cuetsy?style=flat-square" />
 </p>
 
 <p align="center">
@@ -93,7 +93,7 @@ Cuetsy is experimental. The following are supported:
 Cuetsy can be installed using [Go](https://golang.org) 1.16+
 
 ```shell
-$ go install github.com/grafana/cuetsy/cmd/cuetsy
+$ go install github.com/mosaicoo/cuetsy/cmd/cuetsy
 ```
 
 ## Usage
@@ -106,7 +106,7 @@ $ cuetsy [file.cue]
 
 This will create a logically equivalent `[file].ts`
 
-Alternatively, cuetsy can be used as a [library](https://pkg.go.dev/github.com/grafana/cuetsy#GenerateAST) for more customized code generation.
+Alternatively, cuetsy can be used as a [library](https://pkg.go.dev/github.com/mosaicoo/cuetsy#GenerateAST) for more customized code generation.
 
 ### Union Types
 
@@ -147,7 +147,7 @@ TypeScript interfaces are expressed as regular structs in CUE.
 
 **Caveats:**
 
-- [Default generation](#Defaults) does not work correctly for optional nested structs. [Issue](https://github.com/grafana/cuetsy/issues/32)
+- [Default generation](#Defaults) does not work correctly for optional nested structs. [Issue](https://github.com/mosaicoo/cuetsy/issues/32)
 
 <table>
 <tr><th>CUE</th><th>TypeScript</th></tr>

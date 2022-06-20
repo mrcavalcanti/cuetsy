@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/grafana/cuetsy/ts/ast"
+	"github.com/mosaicoo/cuetsy/ts/ast"
 )
 
 type (

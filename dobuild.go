@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"cuelang.org/go/cue"
-	tsast "github.com/grafana/cuetsy/ts/ast"
+	tsast "github.com/mosaicoo/cuetsy/ts/ast"
 )
 
 func newTypeBuilder(ctx *buildContext) *typeBuilder {

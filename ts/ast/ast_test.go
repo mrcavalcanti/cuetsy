@@ -3,8 +3,8 @@ package ast_test
 import (
 	"testing"
 
-	"github.com/grafana/cuetsy/ts/ast"
 	"github.com/matryer/is"
+	"github.com/mosaicoo/cuetsy/ts/ast"
 )
 
 func ident(s string) ast.Ident {
