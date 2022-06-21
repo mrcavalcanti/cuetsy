@@ -3,8 +3,8 @@ package cuetsy
 import (
 	"cuelang.org/go/cue"
 	"cuelang.org/go/cue/errors"
-	"github.com/mosaicoo/cuetsy/ts"
-	tsast "github.com/mosaicoo/cuetsy/ts/ast"
+	"github.com/mrcavalcanti/cuetsy/ts"
+	tsast "github.com/mrcavalcanti/cuetsy/ts/ast"
 )
 
 type NewConfig struct {

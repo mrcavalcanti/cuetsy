@@ -24,7 +24,7 @@ uninstall:
 # Export environment variables from here: https://drone.mosaicoo.net/account
 # Only Mosaicoo employees can regenerate the CI configuration
 # A temp file is created to make sure the `sign` command succeeds
-# For more info: https://github.com/mosaicoo/deployment_tools/blob/master/docs/infrastructure/drone/signing.md
+# For more info: https://github.com/mrcavalcanti/deployment_tools/blob/master/docs/infrastructure/drone/signing.md
 drone:
 	cue export ./.drone/drone.cue > .drone/drone.tmp.yml
 	drone fmt --save .drone/drone.tmp.yml

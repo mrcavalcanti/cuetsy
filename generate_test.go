@@ -12,8 +12,8 @@ import (
 	"cuelang.org/go/cue/errors"
 	"cuelang.org/go/pkg/strings"
 	"github.com/google/go-cmp/cmp"
-	"github.com/mosaicoo/cuetsy"
-	"github.com/mosaicoo/cuetsy/internal/cuetxtar"
+	"github.com/mrcavalcanti/cuetsy"
+	"github.com/mrcavalcanti/cuetsy/internal/cuetxtar"
 	"golang.org/x/tools/txtar"
 	"gotest.tools/assert"
 )

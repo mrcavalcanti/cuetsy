@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/matryer/is"
-	"github.com/mosaicoo/cuetsy/ts/ast"
+	"github.com/mrcavalcanti/cuetsy/ts/ast"
 )
 
 func ident(s string) ast.Ident {
